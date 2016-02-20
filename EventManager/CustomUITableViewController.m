@@ -152,7 +152,10 @@
     self.managedObjectContext = incomingMOC;
 }
 
-
+- (void)dealloc {
+    self.resultsController.delegate = nil;
+    self.resultsController = nil;
+}
 
 
 @end

@@ -184,6 +184,7 @@
     self.wasDeleted = YES;
     
     // Delete the entity
+    
     [self.managedObjectContext deleteObject:self.localEventEntity];
     // save the state
     [self saveEntity];

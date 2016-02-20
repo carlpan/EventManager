@@ -32,7 +32,17 @@
     self.localEventEntity = incomingEventEntity;
     self.eventTitleLabel.text = incomingEventEntity.eventTitle;
     //self.timeToEventLabel.text = [dateFormatter stringFromDate:incomingEventEntity.eventDate];
-    self.timeToEventLabel.text = [NSString stringWithFormat:@"in %d hours", numberOfHours];
+    
+    if (numberOfHours < 0) {
+        self.timeToEventLabel.text = @"Missed event";
+    } else if (numberOfHours == 0) {
+        // check for miniutes
+        numberOfHours = secondsBetween / 60;
+        self.timeToEventLabel.text = [NSString stringWithFormat:@"in %d minutes", numberOfHours];
+        
+    } else {
+        self.timeToEventLabel.text = [NSString stringWithFormat:@"in %d hours", numberOfHours];
+    }
 }
 
 @end

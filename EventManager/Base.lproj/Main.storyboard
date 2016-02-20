@@ -24,13 +24,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-xF-dUV">
-                                            <rect key="frame" x="431" y="11" width="161" height="21"/>
+                                            <rect key="frame" x="404" y="11" width="188" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0I-kT-u8b">
-                                            <rect key="frame" x="20" y="11" width="403" height="21"/>
+                                            <rect key="frame" x="20" y="11" width="376" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -42,7 +42,7 @@
                                         <constraint firstItem="GPE-xF-dUV" firstAttribute="leading" secondItem="E0I-kT-u8b" secondAttribute="trailing" constant="8" symbolic="YES" id="ajT-bf-dGg"/>
                                         <constraint firstItem="GPE-xF-dUV" firstAttribute="trailing" secondItem="NAV-8z-FXV" secondAttribute="trailingMargin" id="mJW-ft-D1H"/>
                                         <constraint firstItem="E0I-kT-u8b" firstAttribute="leading" secondItem="NAV-8z-FXV" secondAttribute="leadingMargin" constant="12" id="oA8-qR-kWP"/>
-                                        <constraint firstItem="GPE-xF-dUV" firstAttribute="width" secondItem="E0I-kT-u8b" secondAttribute="width" multiplier="0.4" id="xAk-qP-PvJ"/>
+                                        <constraint firstItem="GPE-xF-dUV" firstAttribute="width" secondItem="E0I-kT-u8b" secondAttribute="width" multiplier="0.5" id="xAk-qP-PvJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
