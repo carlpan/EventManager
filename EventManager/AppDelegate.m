@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YPMOCManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Pass the managed object context (MOC) down
+    // First (root) view controller (Navigation) will receive the MOC
+    // It will be the delegate of YPMOCManager and implements the protocol
+    id<YPMOCManager> child = (id<YPMOCManager>)self.window.rootViewController;
+    [child receiveMOC:self.managedObjectContext];
+    
     return YES;
 }
 

@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		B33790541C77A3E5008BF9F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33790531C77A3E5008BF9F4 /* main.m */; };
 		B33790571C77A3E5008BF9F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33790561C77A3E5008BF9F4 /* AppDelegate.m */; };
-		B337905A1C77A3E5008BF9F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33790591C77A3E5008BF9F4 /* ViewController.m */; };
 		B337905D1C77A3E5008BF9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B337905B1C77A3E5008BF9F4 /* Main.storyboard */; };
 		B33790601C77A3E5008BF9F4 /* EventManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B337905E1C77A3E5008BF9F4 /* EventManager.xcdatamodeld */; };
 		B33790621C77A3E5008BF9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33790611C77A3E5008BF9F4 /* Assets.xcassets */; };
 		B33790651C77A3E5008BF9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33790631C77A3E5008BF9F4 /* LaunchScreen.storyboard */; };
 		B33790701C77A3E5008BF9F4 /* EventManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B337906F1C77A3E5008BF9F4 /* EventManagerTests.m */; };
+		B3DD46BA1C77A5E9009C2686 /* CustomUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46B91C77A5E9009C2686 /* CustomUINavigationController.m */; };
+		B3DD46BD1C77A60B009C2686 /* CustomUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46BC1C77A60B009C2686 /* CustomUITableViewController.m */; };
+		B3DD46C21C77A78B009C2686 /* EventEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46BF1C77A78B009C2686 /* EventEntity+CoreDataProperties.m */; };
+		B3DD46C31C77A78B009C2686 /* EventEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46C11C77A78B009C2686 /* EventEntity.m */; };
+		B3DD46C81C77A8DB009C2686 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46C71C77A8DB009C2686 /* DetailViewController.m */; };
+		B3DD46CB1C77A962009C2686 /* CustomUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD46CA1C77A962009C2686 /* CustomUITableViewCell.m */; };
+		B3DD46CD1C77B4CA009C2686 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DD46CC1C77B4CA009C2686 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +38,6 @@
 		B33790531C77A3E5008BF9F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B33790551C77A3E5008BF9F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B33790561C77A3E5008BF9F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B33790581C77A3E5008BF9F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B33790591C77A3E5008BF9F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B337905C1C77A3E5008BF9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B337905F1C77A3E5008BF9F4 /* EventManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventManager.xcdatamodel; sourceTree = "<group>"; };
 		B33790611C77A3E5008BF9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +46,21 @@
 		B337906B1C77A3E5008BF9F4 /* EventManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B337906F1C77A3E5008BF9F4 /* EventManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventManagerTests.m; sourceTree = "<group>"; };
 		B33790711C77A3E5008BF9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DD46B81C77A5E9009C2686 /* CustomUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINavigationController.h; sourceTree = "<group>"; };
+		B3DD46B91C77A5E9009C2686 /* CustomUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINavigationController.m; sourceTree = "<group>"; };
+		B3DD46BB1C77A60B009C2686 /* CustomUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUITableViewController.h; sourceTree = "<group>"; };
+		B3DD46BC1C77A60B009C2686 /* CustomUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUITableViewController.m; sourceTree = "<group>"; };
+		B3DD46BE1C77A78B009C2686 /* EventEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EventEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B3DD46BF1C77A78B009C2686 /* EventEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EventEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B3DD46C01C77A78B009C2686 /* EventEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventEntity.h; sourceTree = "<group>"; };
+		B3DD46C11C77A78B009C2686 /* EventEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEntity.m; sourceTree = "<group>"; };
+		B3DD46C41C77A840009C2686 /* YPMOCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMOCManager.h; sourceTree = "<group>"; };
+		B3DD46C51C77A886009C2686 /* YPEventEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPEventEntityManager.h; sourceTree = "<group>"; };
+		B3DD46C61C77A8DB009C2686 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B3DD46C71C77A8DB009C2686 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B3DD46C91C77A962009C2686 /* CustomUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUITableViewCell.h; sourceTree = "<group>"; };
+		B3DD46CA1C77A962009C2686 /* CustomUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUITableViewCell.m; sourceTree = "<group>"; };
+		B3DD46CC1C77B4CA009C2686 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DD46CD1C77B4CA009C2686 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,11 @@
 		B33790461C77A3E5008BF9F4 = {
 			isa = PBXGroup;
 			children = (
+				B3DD46CC1C77B4CA009C2686 /* MapKit.framework */,
+				B3DD46BE1C77A78B009C2686 /* EventEntity+CoreDataProperties.h */,
+				B3DD46BF1C77A78B009C2686 /* EventEntity+CoreDataProperties.m */,
+				B3DD46C01C77A78B009C2686 /* EventEntity.h */,
+				B3DD46C11C77A78B009C2686 /* EventEntity.m */,
 				B33790511C77A3E5008BF9F4 /* EventManager */,
 				B337906E1C77A3E5008BF9F4 /* EventManagerTests */,
 				B33790501C77A3E5008BF9F4 /* Products */,
@@ -85,8 +110,16 @@
 			children = (
 				B33790551C77A3E5008BF9F4 /* AppDelegate.h */,
 				B33790561C77A3E5008BF9F4 /* AppDelegate.m */,
-				B33790581C77A3E5008BF9F4 /* ViewController.h */,
-				B33790591C77A3E5008BF9F4 /* ViewController.m */,
+				B3DD46C41C77A840009C2686 /* YPMOCManager.h */,
+				B3DD46C51C77A886009C2686 /* YPEventEntityManager.h */,
+				B3DD46B81C77A5E9009C2686 /* CustomUINavigationController.h */,
+				B3DD46B91C77A5E9009C2686 /* CustomUINavigationController.m */,
+				B3DD46C91C77A962009C2686 /* CustomUITableViewCell.h */,
+				B3DD46CA1C77A962009C2686 /* CustomUITableViewCell.m */,
+				B3DD46BB1C77A60B009C2686 /* CustomUITableViewController.h */,
+				B3DD46BC1C77A60B009C2686 /* CustomUITableViewController.m */,
+				B3DD46C61C77A8DB009C2686 /* DetailViewController.h */,
+				B3DD46C71C77A8DB009C2686 /* DetailViewController.m */,
 				B337905B1C77A3E5008BF9F4 /* Main.storyboard */,
 				B33790611C77A3E5008BF9F4 /* Assets.xcassets */,
 				B33790631C77A3E5008BF9F4 /* LaunchScreen.storyboard */,
@@ -214,8 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B337905A1C77A3E5008BF9F4 /* ViewController.m in Sources */,
+				B3DD46C21C77A78B009C2686 /* EventEntity+CoreDataProperties.m in Sources */,
+				B3DD46BD1C77A60B009C2686 /* CustomUITableViewController.m in Sources */,
+				B3DD46BA1C77A5E9009C2686 /* CustomUINavigationController.m in Sources */,
+				B3DD46C81C77A8DB009C2686 /* DetailViewController.m in Sources */,
 				B33790571C77A3E5008BF9F4 /* AppDelegate.m in Sources */,
+				B3DD46C31C77A78B009C2686 /* EventEntity.m in Sources */,
+				B3DD46CB1C77A962009C2686 /* CustomUITableViewCell.m in Sources */,
 				B33790601C77A3E5008BF9F4 /* EventManager.xcdatamodeld in Sources */,
 				B33790541C77A3E5008BF9F4 /* main.m in Sources */,
 			);
@@ -406,6 +444,7 @@
 				B33790761C77A3E5008BF9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B33790771C77A3E5008BF9F4 /* Build configuration list for PBXNativeTarget "EventManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +453,7 @@
 				B33790791C77A3E5008BF9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
